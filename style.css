@@ -71,4 +71,24 @@ section.all-elems .elem h2 {
 }
 section.all-elems .elem:active {
   scale: 0.97;
+}
+
+section.full-elem {
+  height: 100%;
+  width: 100%;
+  background-color: var(--sec);
+  padding: 40px;
+  font-size: 60px;
+  display: none;
+  position: absolute;
+}
+section.full-elem .back {
+  position: absolute;
+  right: 5%;
+  background-color: red;
+  border-radius: 18px;
+  border: none;
+  padding: 10px 11px;
+  font-size: 20px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
