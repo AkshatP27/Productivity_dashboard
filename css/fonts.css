@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Aeonik-Normal';
+    src: url('/fonts/AeonikTRIAL-Regular.otf');
+}
+@font-face {
+    font-family: 'Aeonik-Bold';
+    src: url('/fonts/AeonikTRIAL-Bold.otf');
+}
+@font-face {
+    font-family: 'Aeonik-Light';
+    src: url('/fonts/AeonikTRIAL-Light.otf');
+}
