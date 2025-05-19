@@ -56,6 +56,8 @@ section.all-elems{
         overflow: hidden;
         position: relative;
         transition: all ease .25s;
+        cursor: pointer;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
 
         img{
             height: 100%;
@@ -95,7 +97,13 @@ section.full-elem{
         border-radius: 18px;
         border: none;
         padding: 10px 11px;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 700;
+        color: white;
+        height: fit-content;
+        cursor: pointer;
+    }
+    .back:active{
+        scale: .97;
     }
 }
